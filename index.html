@@ -5,10 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cycle Rent App</title>
   <link rel="stylesheet" href="style.css" />
+  
 </head>
 <body>
   <div class="container">
     <h1>🚲 Cycle Rent App</h1>
+
+    <form id="customer-form">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="tel" id="phone" placeholder="Phone Number" required />
+      <input type="text" id="address" placeholder="Address" required />
+      <input type="text" id="idNumber" placeholder="ID/Passport Number" required />
+      <button type="submit">Save Customer Info</button>
+    </form>
+
+    <hr />
+
     <div id="cycle-list" class="cycle-list"></div>
   </div>
 
